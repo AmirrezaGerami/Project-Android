@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ba"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="331dp"
+        android:layout_height="144dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="164dp"
+            android:layout_height="55dp"
+            android:src="@drawable/location_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:text="Go Map"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="412dp"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        app:cardCornerRadius="28dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="220dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:text="Welcome"
+                android:textColor="@color/purple"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="15dp"
+                android:alpha="0.9"
+                android:text="Please Login With Your information"
+                android:textColor="@color/gray100"/>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="20dp"
+                android:text="Email Address"
+                android:textColor="@color/gray100"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:alpha="0.7"/>
+
+            <EditText
+                android:layout_width="380dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="50dp"
+                android:textColor="@color/gray100"/>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Password"
+                android:alpha="0.7"
+                android:textColor="@color/gray100"/>
+            <EditText
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="405dp"
+                android:layout_height="50dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.7"
+                    android:text="I forgot my password"
+                    android:textColor="@color/gray100" />
+
+                <CheckBox
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:alpha="0.7"
+                    android:text="Remmber Me"
+                    android:textColor="@color/gray100" />
+
+
+
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="25dp"
+                android:text="Login" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
